@@ -2,8 +2,6 @@ const express = require('express');
 const cors = require('cors');
 const connectDB = require('./config/db.js');
 // const User = require('./Model/Users');
-
-
 const jwtKey = 'e-com';
 
 require('dotenv').config();
